@@ -1,0 +1,69 @@
+################################################################################
+##              -= YOU MAY NOT REMOVE OR CHANGE THIS NOTICE =-                 #
+## --------------------------------------------------------------------------- #
+##  ApPHP AdminPanel Free version 1.0.5                                        #
+##  Developed by:  ApPhp <info@apphp.com>                                      # 
+##  License:       GNU GPL v.2                                                 #
+##  Site:          http://www.apphp.com/php-adminpanel/                        #
+##  Copyright:     ApPHP AdminPanel (c) 2006-2009. All rights reserved.        #
+##                                                                             #
+##  Additional modules (embedded):                                             #
+##  -- PHP DataGrid 4.2.8                   http://www.apphp.com/php-datagrid/ #
+##  -- JS AFV 1.0.5                 http://www.apphp.com/js-autoformvalidator/ #
+##  -- jQuery 1.1.2                                         http://jquery.com/ #
+##                                                                             #
+################################################################################
+
+Software requirements: PHP 4.0 or later version.
+
+To install PHP AdminCMS, you should have to extract the ApPHP AdminPanel ZIP file. 
+It depends on the operating system you use. Once extracted, you will have a 
+directory containing the ApPHP AdminPanel script.
+
+Wizard Installation:
+1. Upload all content of this directory to your web server, either by copying the 
+   directory or by using an FTP program.
+
+   If you are working on your localhost, this will be
+
+       http://localhost/{admin_panel directory}/
+
+   or if on a live server:
+
+        http://{www.your_domain.com}/{admin_panel directory}/
+
+2. Run index.php file and follow the instructions on the screen.
+
+
+Manual Installation:
+
+1. Upload all content of this directory to your web server, either by copying the 
+   directory or by using an FTP program.
+
+   If you are working on your localhost, this will be
+
+       http://localhost/{admin_panel directory}/
+
+   or if on a live server:
+
+        http://{www.your_domain.com}/{admin_panel directory}/
+
+2. Using phpMyAdmin or another tool, create your database and user, and assign that
+   user to the database. Write down the name of the database, username, and password
+   for the database installation procedure. 
+
+   Create all appropriate database tables using sql/db_dump.sql file.
+
+   Change database host, database name, username and user password in inc/config.inc.php
+
+
+3. Open your browser and type in address bar:
+    http://{your_site_address}/{admin_panel directory}/
+    
+    If your installation was successful login page will be opened
+
+    Enter admin login, admin password (admin/test) and press on Login button.
+    
+4. After you successfully logged to administration panel, you can start to
+   create and add all the needed content to your admin panel.
+   

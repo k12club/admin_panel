@@ -1,0 +1,40 @@
+A:link {
+	FONT-SIZE: 1em; COLOR: #0167cc
+}
+A:visited {
+	FONT-SIZE: 1em; COLOR: #0167cc
+}
+A:hover {
+	COLOR: #ffa02b; TEXT-DECORATION: underline
+}
+
+#filters H3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 1em; MARGIN: 0px 0px 3px
+}
+DIV#textfilters {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: #ccc 1px solid; WIDTH: 128px; PADDING-TOP: 0px; BORDER-BOTTOM: #ccc 1px solid
+}
+#textfilters .header {
+	PADDING-RIGHT: 0.3em; PADDING-LEFT: 0.3em; BACKGROUND: PADDING-BOTTOM: 0.3em; PADDING-TOP: 0.3em
+}
+#textfilters H4 {
+	DISPLAY: inline; FONT-WEIGHT: bold; FONT-SIZE: 1em; COLOR: #555354
+}
+#textfilters IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+#activefilters IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+#textfilters .header IMG.help {
+	MARGIN: 0px 0px 0px 2px
+}
+#textfilters .header .plusbox {
+	FLOAT: right; MARGIN: 2px 0px
+}
+#textfilters UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 2px 0px 6px 4px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#textfilters LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 7px; BACKGROUND: url(../images/listbullet.gif) no-repeat 1px 6px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
